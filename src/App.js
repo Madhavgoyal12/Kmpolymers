@@ -215,7 +215,7 @@ function App() {
             )}
           /> */}
           {/* Main Page */}
-          <Route path="/" exact>
+          <Route path="/Kmpolymers" exact>
             <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
             <div
               style={{
