@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap");
+
+/* .main_nav {
+  display: flex;
+  background-color: #8d12d9;
+  height: 15vh;
+} */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  background-color: #7FC7D9;
+  height: 10vh;
+  align-items: center;
+}
+.grt {
+  margin-left: 2rem;
+  font-size: x-large;
+  font-weight:bold;
+  color: black;
+}
+.nav_toggle{
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.logo {
+  margin-left: 2rem;
+  font-family: Poppins;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.inputnav {
+  /* margin-left: 2rem; */
+  width: 35vw;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 2px 0px 0px 2px;
+  height: 5.5vh;
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+} */
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  z-index: 10000;
+  background-color: #8d12d9;
+}
+.btn-search {
+  background-color: #6e10a8;
+}
+.nr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+@media (max-width: 860px) {
+  /* .grt {
+    display: none;
+  } */
+  .logo {
+    font-size: 1.8rem;
+  }
+  .inputnav {
+    width: 68vw;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+  }
+  .navbar {
+    height: 15vh;
+  }
+  .searchbar {
+    width: 100%;
+    order: 3;
+  }
+  .nav_toggle {
+    order: 2;
+  }
+}
+.nr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 860px) {
+  .navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+  }
+  .main_nav {
+    height: 10vh;
+  }
+  .nr {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.rightAdminCard {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 475px) {
+  .logo {
+    font-size: 1.4rem;
+  }
+  .grt {
+    margin-left: 1rem;
+    font-size: large;
+    font-weight:bold;
+    color: black;
+  }
+}
+@media (max-width: 340px) {
+  .logo img {
+    display: none;
+  }
+  .grt {
+    margin-left: 1rem;
+    font-size: small;
+    font-weight:bold;
+    color: black;
+  }
+}

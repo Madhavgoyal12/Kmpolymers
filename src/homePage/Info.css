@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.footer-container {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+.f-details {
+  height: 38rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.data {
+  margin-top: 12px;
+}
+.f-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-address,
+.f-contacts,
+.f-feedback {
+  text-align: left;
+  /* padding: 0.5rem; */
+  font-family: Poppins;
+}
+.f-address {
+  width: 60%;
+  margin-right: 1rem;
+}
+.f-contacts {
+  width: 40%;
+}
+.f-details {
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* background-color: #6b2097;
+    box-shadow: 5px 5px 10px rgb(161 75 211 / 80%); */
+  background: rgb(166, 0, 129);
+  background: linear-gradient(
+    40deg,
+    #0F1035 0%,
+    #365486 100%
+  );
+  height: 38rem;
+  margin: 0.5rem;
+  border-radius: 1%;
+}
+.input {
+  border: none;
+  padding: 0.4rem;
+  border-radius: 5px;
+  color: black;
+}
+.input::placeholder {
+  color: black;
+}
+.address,
+.links,
+.feedback,
+.contacts {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+
+  /* text-decoration: underline; */
+}
+
+.f-map {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.socials {
+  width: 60%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+.DetailsHeading {
+  display: flex;
+}
+.send {
+  background-color: white;
+  color: black;
+  float: right;
+  padding: 0.4rem;
+  border-radius: 5px;
+  margin: 1rem 0rem 0.5rem 0rem;
+}
+@media only screen and (max-width: 930px) {
+  .footer {
+    flex-direction: column;
+  }
+  .f-map {
+    width: 100%;
+  }
+  .f-details {
+    width: 100%;
+    border-radius: 15px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .f-flex {
+    display: block;
+  }
+  .f-details {
+    height: auto;
+    padding: 1rem;
+  }
+  .f-address,
+  .f-contacts {
+    width: 100%;
+    padding: 1rem;
+  }
+  .f-feedback {
+    padding: 1rem;
+  }
+}
