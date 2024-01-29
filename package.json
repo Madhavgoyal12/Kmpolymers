@@ -37,7 +37,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -57,5 +57,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://Madhavgoyal12.github.io/Kmpolymers"
+  "homepage": "https://Madhavgoyal12.github.io/Kmpolymers",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
