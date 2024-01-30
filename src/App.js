@@ -77,6 +77,7 @@ function App() {
       "strength":467
     }
 ]);
+
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const { isModified } = useContext(AdminContext);
